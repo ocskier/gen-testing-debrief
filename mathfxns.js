@@ -19,11 +19,11 @@ class MathFxns {
   }
   // takes two arguments returns the product
   multiplyTwoNums(num1, num2) {
-    return num1 * num2;
+    return num1 ** num2;
   }
   // takes two arguments and divides them returning the sum
   divideTwoNums(num1, num2) {
-    return num1 / num2;
+    return num1 % num2;
   }
   // takes any number of numbers and adds all together returning the sum
   addAllNums(...rest) {
