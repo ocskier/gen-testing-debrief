@@ -1,7 +1,7 @@
 # gen-testing-debrief
 Unit Testing Assignment for Sync Debrief
 
-# Getting Started
+## Getting Started
 
 1. Select one group member to be the coder for the group, the coder will follow the following instructions with the help of the group:
     * FORK this repository onto your github
