@@ -12,5 +12,5 @@ describe('math functions \n', () => {
     });
   });
   // ...
-  // add more test here
+  // add more tests here
 });
