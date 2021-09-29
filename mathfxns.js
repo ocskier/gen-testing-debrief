@@ -19,7 +19,7 @@ class MathFxns {
   }
   // takes two arguments returns the product
   multiplyTwoNums(num1, num2) {
-    return num1 ** num2;
+    return num1 * num2;
   }
   // takes two arguments and divides them returning the sum
   divideTwoNums(num1, num2) {
@@ -30,11 +30,11 @@ class MathFxns {
     return rest.reduce((sum, val) => (sum += val));
   }
   // takes a number and returns if the number is prime or not
-  isPrime(num) {
+ isPrime(num) {
     if (num > 0) {
       for (var i = 2; i < num; i++) {
         if (num % i === 0) {
-          return false;
+          return false; // if we wanted to not accept strings and compared them to numbers. We should return the num and compare to string. 
         }
       }
       return num != 1;
